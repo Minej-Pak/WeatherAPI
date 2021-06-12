@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Desktop" />
+        <module name="RmiService" />
+        <module name="WeatherService" />
+        <module name="WeatherAPIAdapter" />
+        <module name="WeatherServiceItf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Desktop" target="16" />
+      <module name="jackson-annotations" target="1.6" />
+      <module name="jackson-core" target="1.7" />
+      <module name="jackson-core (1)" target="1.6" />
+      <module name="jackson-databind" target="1.7" />
+      <module name="RmiService" target="16" />
+      <module name="WeatherAPIAdapter" target="16" />
+      <module name="WeatherService" target="16" />
+      <module name="WeatherServiceItf" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

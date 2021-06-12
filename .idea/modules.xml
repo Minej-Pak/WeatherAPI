@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desktop/Desktop.iml" filepath="$PROJECT_DIR$/Desktop/Desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProjektnaNaloga.iml" filepath="$PROJECT_DIR$/.idea/ProjektnaNaloga.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RmiService/RmiService.iml" filepath="$PROJECT_DIR$/RmiService/RmiService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeatherAPIAdapter/WeatherAPIAdapter.iml" filepath="$PROJECT_DIR$/WeatherAPIAdapter/WeatherAPIAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeatherServer/WeatherServer.iml" filepath="$PROJECT_DIR$/WeatherServer/WeatherServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeatherService/WeatherService.iml" filepath="$PROJECT_DIR$/WeatherService/WeatherService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeatherServiceItf/WeatherServiceitf.iml" filepath="$PROJECT_DIR$/WeatherServiceItf/WeatherServiceitf.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,111 @@
+{
+	"id": "e95af9d0-72e9-4618-8adc-39fdc06546b9",
+	"name": "Weather Test Collections",
+	"timestamp": "2021-06-12T16:05:20.253Z",
+	"collection_id": "c48c25ad-3282-4690-9f7f-5be315c3ad41",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "11fc828a-6c7d-447c-b5ac-42359d52fba7",
+			"name": "Check Response time",
+			"url": "http://localhost:8080/RmiService/",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "56866997-23d1-415d-a7bb-84908829e05f",
+			"name": "Check posting",
+			"url": "http://localhost:8080/RmiService",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200 and Date is set": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 and Date is set": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200 and Date is set": true
+				}
+			]
+		},
+		{
+			"id": "b13ef57c-6fb9-4a60-8a91-c76d702e534d",
+			"name": "Input fields contain strings",
+			"url": "http://localhost:8080/RmiService",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Input fields contain strings": true
+			},
+			"testPassFailCounts": {
+				"Input fields contain strings": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Input fields contain strings": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 11,
+	"collection": {
+		"requests": [
+			{
+				"id": "11fc828a-6c7d-447c-b5ac-42359d52fba7",
+				"method": "GET"
+			},
+			{
+				"id": "56866997-23d1-415d-a7bb-84908829e05f",
+				"method": "POST"
+			},
+			{
+				"id": "b13ef57c-6fb9-4a60-8a91-c76d702e534d",
+				"method": "GET"
+			}
+		]
+	}
+}

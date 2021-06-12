@@ -1,0 +1,20 @@
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration>
+    <appender name="MAIN" class="org.apache.log4j.ConsoleApplication">
+    <param name="Target" value="System.out"/>
+    <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversationPattern" value="%r [%t] %-5p %c %x - %n%n"/>
+    </layout>
+    </appender>
+    <appender name="FILE" class="org.apache.log4j.RollingFileAppender">
+    <param name="File" value="Desktop.log"/>
+    <layout class="org.apache.log4j.PatternLayout">
+        <param name="ConversationPattern" value="%d [%t] %-5p %c %x - %n%n"/>
+    </layout>
+    </appender>
+    <root>
+        <priority value="debug"></priority>
+        <appender-ref ref="MAIN"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</log4j:configuration>

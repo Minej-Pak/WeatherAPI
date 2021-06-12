@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RmiService:war">
+    <output-path>$PROJECT_DIR$/RmiService/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RmiService</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RmiService-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RmiService:war exploded" />
+    </root>
+  </artifact>
+</component>

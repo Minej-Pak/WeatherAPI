@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../RmiService/pom.xml" />
+        <option value="$PROJECT_DIR$/../WeatherAPIAdapter/pom.xml" />
+        <option value="$USER_HOME$/Desktop/remotecontent.xml" />
+        <option value="$USER_HOME$/Desktop/remotecontent2.xml" />
+        <option value="$USER_HOME$/Desktop/remotecontent3.xml" />
+        <option value="$USER_HOME$/Desktop/remotecontent4.xml" />
+        <option value="$PROJECT_DIR$/../WeatherService/pom.xml" />
+        <option value="$PROJECT_DIR$/../WeatherServiceitf/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" default="true" project-jdk-name="16" project-jdk-type="JavaSDK" />
+</project>
